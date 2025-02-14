@@ -267,4 +267,8 @@ button:hover {
     display: flex;
     flex-flow: column nowrap;
   }
+   .timings {
+    display: flex;
+    flex-direction: column;
+  }
 }
