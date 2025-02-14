@@ -64,7 +64,7 @@ wtrBtn.addEventListener("click", async (evt) => {
   const infoDiv = document.createElement("div");
   infoDiv.classList.add("wtr-update");
   infoDiv.innerHTML = `
-      <p>Country: ${city}</p>
+      <p>City: ${city}</p>
       <p>temperature: ${weatherData.current_weather.temperature}°C</p>
       <p>Wind speed :  ${weatherData.current_weather.windspeed} km/h</p>    
     `;
