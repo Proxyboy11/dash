@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./money_.css" />
   </head>
   <body>
     <div class="to-do-cont">
@@ -55,6 +56,44 @@
       <button class="quote-btn input-btn" id="quote-el">Get quote</button>
       <p class="quote-para"></p>
     </div>
+    <div class="container">
+      <h1 class="nowrap">Currency Converter</h1>
+      <form>
+        <div class="amount">
+          <p class="nowrap">Enter Amount</p>
+          <input type="text" value="100" />
+        </div>
+        <div class="dropdown">
+          <div class="from">
+            <p class="list">from</p>
+            <div class="select-cont">
+              <img
+                src="https://flagsapi.com/US/flat/64.png"
+                alt="a country flag"
+              />
+              <select name="from"></select>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <div class="to">
+            <p class="list">to</p>
+            <div class="select-cont">
+              <img
+                src="https://flagsapi.com/IN/flat/64.png"
+                alt="a country flag"
+              />
+              <select name="to"></select>
+            </div>
+          </div>
+        </div>
+        <div class="msg">
+          <p id="final-msg" class="nowrap">convert currencies easily !!</p>
+          <button class="submit">Get exchange rate</button>
+        </div>
+      </form>
+    </div>
+    <script src="./codes.js"></script>
+    <script src="./money__.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
